@@ -97,7 +97,11 @@ export default class ActionButton extends Component {
       }),
       width: this.props.size,
       height: this.props.size,
-      borderRadius: this.props.size / 2,
+      borderColor: '#ff4c00',
+      borderTopWidth: 2,
+      borderLeftWidth: 2,
+      borderRightWidth: 2,
+      borderRadius: 0,
     };
 
     const buttonStyle = {
@@ -270,7 +274,7 @@ ActionButton.defaultProps = {
   autoInactive: true,
   onPress: () => {},
   backdrop: false,
-  degrees: 45,
+  degrees: 0,
   position: 'right',
   offsetX: 30,
   offsetY: 30,
