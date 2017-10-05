@@ -16,6 +16,9 @@
     "float-button",
     "multi-action-button"
   ],
+  "dependencies": {
+     "prop-types": "^15.5.10"
+   },
   "peerDependencies": {
     "react-native": ">=0.11"
   },
